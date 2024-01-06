@@ -15,9 +15,24 @@
 
 const BINDINGS = [
   {
-    shortcut: 'F12',
-    title: 'Terminator',
-    command: 'terminator'
+    shortcut: '<Super>Return',
+    title: 'Alacritty',
+    command: 'alacritty -e tmux'
+  },
+  {
+    shortcut: '<Super>w',
+    title: 'chromium-browser',
+    command: 'chromium-browser'
+  },
+  {
+    shortcut: '<Super>e',
+    title: 'gnome-text-editor',
+    command: 'gnome-text-editor'
+  },
+  {
+    shortcut: '<Super>f',
+    title: 'nautilus',
+    command: 'nautilus'
   },
   // More bindings can be added, for example:
   // {
