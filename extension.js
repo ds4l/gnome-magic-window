@@ -21,8 +21,8 @@ const BINDINGS = [
   },
   {
     shortcut: '<Super>w',
-    title: 'chromium-browser',
-    command: 'chromium-browser'
+    title: 'firefox',
+    command: 'firefox'
   },
   {
     shortcut: '<Super>e',
