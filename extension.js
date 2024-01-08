@@ -17,7 +17,7 @@ const BINDINGS = [
   {
     shortcut: '<Super>Return',
     title: 'Alacritty',
-    command: 'alacritty -e tmux'
+    command: "alacritty -e tmux new-session -n ''"
   },
   {
     shortcut: '<Super>w',
